@@ -80,9 +80,10 @@ export default function Home() {
               <li className="my-2"> ✅ සම්බන්ධ කර ගැනීමට ප්‍රමාද වූ Lead not contacted පෙන්වන්නේ නැත</li>
               <li className="my-2"> ✅ කැලැන්ඩරයෙන් Next Follwing up Date ලබාදී ඇති නමුත් එම දිනය පසු වූ විට Follwing up Delayed ඇඩ් වෙන්නේ නැත.</li>
               <li className="my-2"> ✅ Refreshing Issue</li>
+              <li className="my-2"> ✅ සිංහල භාෂාව එකතු කර ඇත.</li>
               <li className="my-2"> ✅ Other</li>
             </ul>
-            
+           
             
           </AccordionContent> 
           </AccordionItem>
