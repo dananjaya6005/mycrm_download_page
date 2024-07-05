@@ -1,6 +1,7 @@
 
 import Image  from "next/image";
 import download_logo from '../../public/apkdownload.png';
+import icon from '../../public/icon.png';
 import {
   Accordion,
   AccordionContent,
@@ -15,8 +16,9 @@ import { Fragment } from "react";
 export default function Home() {
   return (
     <main className="flex flex-col  justify-center items-center min-h-screen">
+      <Image src={icon} className="my-8" alt="MYCRM" width={150} height={150} />
       <h1 className="text-2xl font-semibold  text-zinc-700 my-5" >Download MYCRM for Android</h1>
-      <a href='https://089-up-e.jotta.cloud/files/v1/dl/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiemlwIjoiREVGIn0..VsolG_vu9WyX6KziIGa5eg.5NCQAI9R3Dwdm4H2ng5hzHPPXUnCvJplql3nYg-kjaW5Ff9xkXsWskROJYWX7eLTDBegbAJ2G4FnchhVFkdEthULzQMay5sUteOd1ftaUEk3fca8Qz2p9ggoDTIjkI7Wae4Qrmy53asQVWRzViZY0rnFg4PpfRO0ardWg9lzAMFj_gShZ2t_A4ZEFE9cykwIbgydiscFfj-BOkIHbypEtawF5nvLK-UcP5L1u5GixiJ9Z9xJhgiCIonz7s1tFn8kUmtbXr_N7UwJiww7Hi6NrGkAYpO4rALlyglD86tVTMvcI90BkRe9vjGP95FVJqTo.iEo770wsdoPhqCpPVBGUAQ?access_token=eyJraWQiOiJkZDBhMWIyOS02MjIyLTRmMWMtYjhkOS1jOTFiY2Q1OTRiMjkiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJhY2NvdW50Iiwic3ViIjoicF9hNmU1ZmU2Y2MwYjM0MDZhYWI5ODc2ZGU2MDYyODEiLCJzdCI6IkNpQndYMkUyWlRWbVpUWmpZekJpTXpRd05tRmhZams0Tnpaa1pUWXdOakk0TVJJQ0NBRWFKUm9qTXpZMk56QTJZV1ZtTVRWak1qRTNORGhpWldGa01qbGtaalJpWldGak9EazNOMkk9IiwiaXNzIjoiam90dGEiLCJ0eXAiOiJCZWFyZXIiLCJleHAiOjE3MjAwODQ1ODYsInVzZXJuYW1lIjoicF9hNmU1ZmU2Y2MwYjM0MDZhYWI5ODc2ZGU2MDYyODEifQ.Pcop2qYTCwWc9HLfbdMUqrHbn4PYky7S-W-Ar2VWqtBKauLJSr4D4IQmY7ZDobSe5_7FdS64SqQTUFZnv3r_55UJ0dXYxbOJ84IoTdiUduX5PH2bCKeqmo_mKrr6fepY5o5WLhJF7bNc-mw-PBwvl9K_rXuw0Nb-CkKSX7iOiOVsKQht4ZUrJhp30IkrmoFTZs2N5X5PhcmyKqF8nyJ2ScCCjYwUvP1100qolpsHiZ5FX_rBHfyNB1LpnNSRGL4TIQXE-4jGwsUqV9Bp0tdINgibhJe3awY-iFjJG65lum8iyTm3mmFiY6Zo6q8UinyL8Utpkkj6kZxLKwetp-VS_g' download="mycrm_v1.apk">
+      <a href='https://070-up-e.jotta.cloud/files/v1/dl/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiemlwIjoiREVGIn0..piYatrq7XAn9gsdgsSQq1g.5Bsjm5SzvNjTPXXxA3u2StyP6KrZMaU7v9SYgC6-dKIcrZ8FryqGEG-heUlWD5Qpp74aJE-Spnh-6zNfAozhhxnJHeDY5uG5jxQvhLhlgBVSilQjf-3V8IY7kcICViK3-xpRTigROq9t9N3vqtQbqhOrWMs3Q-Aaa5s2TENQeSCQ07HywJ_KmOs_Tlp6l90-9qKxV7W7S7TgY1_mB58qPXU86GUNy8cp8PZjxTYRmK44rhsnQ3SUdhdB-p_a3DEuHLp_F9Wa-XDVGhtBlexBpK4KbAhvWVpIbCl087laZGKaVqe870ZVfr7P9kWLD2O0.DVIC6drubEF6lBu_rnbRJA?access_token=eyJraWQiOiJkZDBhMWIyOS02MjIyLTRmMWMtYjhkOS1jOTFiY2Q1OTRiMjkiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJhY2NvdW50Iiwic3ViIjoicF9hOGZjOWJiNDI3Mzc0YjJlYjA0Y2IzNTAwYzc3YmIiLCJzdCI6IkNpQndYMkU0Wm1NNVltSTBNamN6TnpSaU1tVmlNRFJqWWpNMU1EQmpOemRpWWhJQ0NBRWFKUm9qTXpZMlkyTmxabU0yWldFME16QXdOR0l5TVRrMFkyTmpNRGcyWldSa05EQmxZems9IiwiaXNzIjoiam90dGEiLCJ0eXAiOiJCZWFyZXIiLCJleHAiOjE3MjAyNTA4MDQsInVzZXJuYW1lIjoicF9hOGZjOWJiNDI3Mzc0YjJlYjA0Y2IzNTAwYzc3YmIifQ.KVU0j3S5gDF3M9xY3lxlNTaEQadNwLcABdc9_51PvyajoupWf45865DvfUsiaY86tguccTwAX4QQlpVt8wefxA3BGtxAK8f7EVVoyTuDnbM1sdO28AjPkqhdlb5D9R7UCSnwGo7UfXW56e_br32pa01yWKnm-ooeaB03p7bpdA1qOK90w1aDrU8YWoVz_8Uyi3pqqVEDx1zxj2MakrGEltP2eMPFwds5QfW6dDW7f8sQVDTlAQTPFfVt5ldz_fCtbWh_QvDQJ8hvWcWaMvpxRbtMM4ku5oQFW9PhRFHTi3GbHFa2A9NvicMBW0bpFpJo9uHi8U2516oela4AWVRatg' download="mycrmv2.apk">
       <Image  src={download_logo} alt="MYCRM" width={200} height={200} />
       </a>
       <h2 className="my-4 font-semibold text-sky-900">64.36 MB</h2>
