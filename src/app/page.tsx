@@ -34,7 +34,7 @@ export default function Home() {
             <AccordionTrigger>How to install MYCRM on Android? (My CRM ඔබගේ ස්මාර්ට් දුරකථනයට ස්ථාපිත කරන්නේ කෙසේද ?)</AccordionTrigger>
             <AccordionContent>
               <div className="my-2">
-              <Link href="">
+              <Link href="https://youtu.be/vUiaqOVTHlo">
               <Button className="bg-rose-800">වීඩියෝව බලන්න</Button>
               </Link>
               </div>
@@ -49,7 +49,7 @@ export default function Home() {
             <AccordionTrigger>Entered the correct username and password but can not log in (නිවැරදි පරිශීලක නාමය සහ මුරපදය ඇතුළත් කළ නමුත් ලොග් විය නොහැක.)</AccordionTrigger>
             <AccordionContent>
               <div className="my-2">
-              <Link href="">
+              <Link href="https://youtu.be/6CFfk9aOS9Q">
               <Button className="bg-rose-800">වීඩියෝව බලන්න</Button>
               </Link>
               </div>
