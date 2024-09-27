@@ -46,7 +46,7 @@ export default function Home() {
           <p className="text-xs text-gray-500">Contains ads · In-app purchases</p>
         </div>
         <Button className="bg-green-600 hover:bg-green-700 text-white">
-          <a download='MyCrm app'  href="https://www.file.io/OySu/download/YFv9RtMAvONk" target="_blank">
+          <a download='MyCrm app'  href="https://www.upload-apk.com/en/iEYPPzgQvJqZTDu" target="_blank">
           Download APK
           </a>
         </Button>
