@@ -46,7 +46,7 @@ export default function Home() {
           <p className="text-xs text-gray-500">Contains ads · In-app purchases</p>
         </div>
         <Button className="bg-green-600 hover:bg-green-700 text-white">
-          <a download='MyCrm app'  href="https://store5.gofile.io/download/web/b57dd845-450e-4ee0-8aa8-3603e3e95add/crm%20-%20release.apk" target="_blank">
+          <a download='MyCrm app'  href="https://www.file.io/OySu/download/YFv9RtMAvONk" target="_blank">
           Download APK
           </a>
         </Button>
