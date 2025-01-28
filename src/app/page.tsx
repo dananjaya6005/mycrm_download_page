@@ -26,7 +26,7 @@ export default function Home() {
           <h1 className="text-xl font-semibold">MyCRM</h1>
           <p className="text-sm text-green-600">DMS (pvt) Ltd </p>
           <div className="flex items-center mt-1">
-            <span className="text-sm font-medium mr-1">4.5</span>
+            <span className="text-sm font-medium mr-1">4.4</span>
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star
@@ -46,7 +46,7 @@ export default function Home() {
           <p className="text-xs text-gray-500">Contains ads · In-app purchases</p>
         </div>
         <Button className="bg-green-600 hover:bg-green-700 text-white">
-          <a download='MyCrm app'  href="https://www.upload-apk.com/en/iEYPPzgQvJqZTDu" target="_blank">
+          <a download='MyCrm app'  href="https://files.catbox.moe/38af0y.apk" target="_blank">
           Download APK
           </a>
         </Button>
