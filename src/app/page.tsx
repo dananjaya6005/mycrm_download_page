@@ -70,7 +70,7 @@ export default function Home() {
             <p className="text-xs text-gray-500">Rated for 17+</p>
           </div>
           <div className="flex-1">
-            <p className="text-2xl font-bold">4.5★</p>
+            <p className="text-2xl font-bold">4.4★</p>
             <p className="text-xs text-gray-500">100+ reviews</p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function Home() {
         <h2 className="text-lg font-semibold mb-2">Ratings and reviews</h2>
         <div className="flex items-center space-x-4 mb-4">
           <div className="text-center">
-            <p className="text-4xl font-bold">4.5</p>
+            <p className="text-4xl font-bold">4.4</p>
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star
